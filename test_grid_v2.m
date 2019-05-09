@@ -14,12 +14,12 @@ c = 78*sqrt(2)*1e-6;
 rel = 1.9;
 
 delta_y   = b/n;
-nb        = round(b/delta_y); % Number of segments on ’b’
+nb        = round(b/delta_y); % Number of segments on â€™bâ€™
 y1        = linspace(0,b,n+1); % Grid points along y-axis
 na        = round(a/delta_y);
 y2        = linspace(0,a,na+1); % still not sure
 
-mc  = round(c/delta_y); % Number of segments on ’b’
+mc  = round(c/delta_y); % Number of segments on â€™bâ€™
 z   = linspace(0,c,mc+1); % Grid points along y-axis
 
 
@@ -122,7 +122,7 @@ endfunction
 %seidel = seidel(f, mask, na, mc)
 
 % --------------------------------------------------------------
-% Calculate E and J
+% Calculate E and J, budi mulyanto
 % --------------------------------------------------------------
 function I_1 = curr_dens_1(mc, na, f, delta_y, sigma, h) 
 for k = 1:mc+0
